@@ -3,6 +3,8 @@ Standalone Library based on very old Karigell Framework, Updated to Python 3.6
 
 Backend Example: 
 ```Python
+import time
+import PythonInsideHTML36 as pih
 
 env = {
 "time":time,
