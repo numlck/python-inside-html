@@ -12,10 +12,13 @@ env = {
 }
 template  = pih.PIH("filepath")
 code = template.pythonCode()
-exec(code, e)
+exec(code, env)
 
 rendered = e["py_code"].getvalue()
 ```
+
+Notes:
+	```template.pythonCode()``` returns a ```compile()``` code object, which you can store in a variable and call a different ```env``` along a ```exec()``` on so its actually pretty fast. Uncached renders at 0.003 seconds, cached renders pretty much instantly. 
   
 Frontend Example
 ```HTML
