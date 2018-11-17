@@ -3,11 +3,12 @@ Standalone Library based on very old Karigell Framework, Updated to Python 3.6
 
 Backend Example: 
 ```Python
+
 env = {
-"time":time
-"t1":time.time(),
+"time":time,
+"t1":time.time()
 }
-template  = pih.PIH(file)
+template  = pih.PIH("filepath")
 code = template.pythonCode()
 exec(code, e)
 
