@@ -43,6 +43,8 @@ Notes:
 	```template.pythonCode()``` returns a ```compile()``` code object, which you can store in a variable and call a different ```env``` along a ```exec()``` so its plenty fast. 
 	
 Uncached renders at 0.003 seconds with a couple includes, cached renders pretty much instantly. 
+
+
 See Examples/fileserver.py
   
 # Frontend Example
