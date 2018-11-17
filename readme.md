@@ -36,7 +36,7 @@ template  = pih.PIH("filepath")
 code = template.pythonCode()
 exec(code, env)
 
-rendered = e["py_code"].getvalue()
+rendered = env["py_code"].getvalue()
 ```
 
 Notes:
