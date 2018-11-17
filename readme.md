@@ -2,7 +2,7 @@
 Standalone Library based on very old Karigell Framework, Updated to Python 3.6
 
 Backend Example: 
-  ```
+  ```Python
   env = {
     "time":time
     "t1":time.time(),
@@ -15,7 +15,7 @@ Backend Example:
   ```
   
 Frontend Example
-```
+```HTML
 <html>
 
 	<head></head>
