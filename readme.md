@@ -3,7 +3,7 @@ Render Python inside HTML with good performance.
 
 Based on standalone library inside very old Karigell Framework, Updated to work with Python 3.6
 
-render blocks and statements
+# Render blocks and statements
 ```
 <% if x: %>
 	output someting
@@ -13,7 +13,7 @@ render blocks and statements
 <% end %>
 ```
 
-render expressions
+# Render expressions
 ```
 <%= time.time() - t1 %>s
 ```
@@ -23,7 +23,7 @@ SCRIPT_END exception
 ```
     raise SCRIPT_END(message)
 ```
-Backend Example: 
+# Backend Example: 
 ```Python
 import time
 import PythonInsideHTML36 as pih
@@ -42,7 +42,7 @@ rendered = e["py_code"].getvalue()
 Notes:
 	```template.pythonCode()``` returns a ```compile()``` code object, which you can store in a variable and call a different ```env``` along a ```exec()``` so its plenty fast. Uncached renders at 0.003 seconds with a couple includes, cached renders pretty much instantly. 
   
-Frontend Example
+# Frontend Example
 ```HTML
 <html>
 
