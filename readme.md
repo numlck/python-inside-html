@@ -13,6 +13,23 @@ Based on standalone library inside very old Karigell Framework, Updated to work 
 <% end %>
 ```
 
+# Bi-Directional Data Flow
+
+Backend
+```
+import time
+import PythonInsideHTML36 as pih
+
+env = {}
+template  = pih.PIH("filepath")
+code = template.pythonCode()
+exec(code, env)
+
+html = env["py_code"].getvalue()
+data = env["x"]
+
+```
+
 # Render blocks and statements
 ```
 <% if x: %>
