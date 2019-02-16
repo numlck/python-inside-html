@@ -3,6 +3,16 @@ Render Python inside HTML with good performance.
 
 Based on standalone library inside very old Karigell Framework, Updated to work with Python 3.6
 
+# Render Whole Python Scripts in HTML
+
+```
+<% x = 1 %>
+<% while x < 100: %>
+	<p><%= x %></p>
+	<% x += 1 %>
+<% end %>
+```
+
 # Render blocks and statements
 ```
 <% if x: %>
