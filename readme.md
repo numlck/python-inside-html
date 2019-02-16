@@ -5,7 +5,7 @@ Based on standalone library inside very old Karigell Framework, Updated to work 
 
 # Render Whole Python Scripts in HTML
 
-```
+```HTML
 <% x = 1 %>
 <% while x < 100: %>
 	<p><%= x %></p>
