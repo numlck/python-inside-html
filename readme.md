@@ -30,8 +30,9 @@ code = template.pythonCode()
 exec(code, env)
 
 html = env["py_code"].getvalue()
-data = env["x"] #global template variables are stored in env just like a normal python exec
-
+x = env.get("x", "") #global template variables are stored in env just like a normal python exec
+y = env.get("y", "")
+z = env.get("z", "")
 ```
 
 # Render blocks and statements
