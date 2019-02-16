@@ -11,7 +11,7 @@ Based on standalone library inside very old Karigell Framework, Updated to work 
    y = True
    z = {}
 %>
-<% while x < 100: %>
+<% while x < 100 or y == False: %>
 	<p><%= x %></p>
 	<% x += 1 %>
 <% end %>
