@@ -9,7 +9,14 @@ Rather then building a template engine in Python via Classes, Parsers, Evaluator
 
 Besides increasing performance the fact that we are talking about 1 Language being able to evaluate a other language intermixed and meta circular is a very interesting concept.
 
+Doing the inverse of something Meta does not actually decrease its abstraction. It increases it.
+i.e 
+Meta ^ 1 = Evaluation
+Meta ^ 2 = Virtualization
+Meta ^ 3 = Inverse Virtualization
+
 To Illustrate:
+![Meta Circular EvaluationVirtual Machine](https://i.imgur.com/MCq4QLp.png)
 
 
 # Render Whole Python Scripts in HTML
