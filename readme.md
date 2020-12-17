@@ -11,8 +11,11 @@ Besides increasing performance the fact that we are talking about 1 Language bei
 
 Doing the inverse of something Meta does not actually decrease its abstraction. It increases it.
 i.e 
+
 Meta ^ 1 = Evaluation
+
 Meta ^ 2 = Virtualization
+
 Meta ^ 3 = Inverse Virtualization
 
 To Illustrate:
