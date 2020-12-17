@@ -19,6 +19,8 @@ Meta ^ 2 = Virtualization
 Meta ^ 3 = Inverse Virtualization
 
 To Illustrate:
+
+
 ![Meta Circular EvaluationVirtual Machine](https://i.imgur.com/MCq4QLp.png)
 
 
