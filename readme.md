@@ -5,7 +5,7 @@ Based on standalone library inside very old Karigell Framework, Updated to work 
 
 # Why?
 Although i have not written the base implementation myself (besides it not winning any style points) i believe this framework or ones like it are very important.
-Rather then building a template engine in Python via Classes, Parsers, Evaluators, etc. PIH uses Meta Circular Evaluation whereby code intermixed with HTML gets parsed as Python code and then run on the Python VM natively.
+Rather then building a template engine in Python via Classes, Parsers, Evaluators, etc. PIH uses Meta Circular Compilation whereby code intermixed with HTML gets compiled to Python byte code and then run on the Python VM natively.
 
 Besides increasing performance the fact that we are talking about 1 Language being able to evaluate a other language intermixed and meta circular is a very interesting concept.
 
